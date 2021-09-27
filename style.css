@@ -1,0 +1,18 @@
+h3{
+    font-size: 17px !important;
+}
+.btn-success:hover{
+    background-color: red;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', cursive;
+}
+canvas{
+    animation-name: disco;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background-color: indigo;
+}
+@keyframes disco{
+    from{box-shadow: 10px 10px 70px red};
+    to{box-shadow: 10px 10px 70px blue};
+}
